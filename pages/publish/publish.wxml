@@ -1,6 +1,1 @@
-<view class="container">
-  <view class="card">
-    <view class="page-title">发布闲置</view>
-    <view class="hint">上传你想转卖或交换的物品</view>
-  </view>
-</view>
+<view class="container">发布闲置页面</view>
