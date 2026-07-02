@@ -6,3 +6,15 @@ unpackage/
 .DS_Store
 Thumbs.db
 .env
+
+# 微信开发者工具缓存
+project.config.json
+.DS_Store
+node_modules
+npm-debug.log
+
+# VSCode / IDE 缓存
+.vscode/
+.idea/
+*.swp
+*.swo
