@@ -1,12 +1,12 @@
 <view class="container">
-  <view class="card">
-    <view class="page-title">校园易换</view>
-    <view class="page-subtitle">发现校园里的闲置好物</view>
+  <!-- 搜索框 -->
+  <view class="search">
+    <input placeholder="搜索闲置物品" />
   </view>
-
-  <view class="goods-list">
-    <block wx:for="{{goodsList}}" wx:key="id">
-      <goods-card goods="{{item}}"></goods-card>
-    </block>
-  </view>
+  <!-- 商品列表 -->
+  <scroll-view scroll-y class="goods-wrap">
+    <view class="flex-row" style="flex-wrap: wrap;gap:20rpx">
+      <goods-card wx:for="{{goodsList}}" wx:key="id" item="{{item}}"></goods-card>
+    </view>
+  </scroll-view>
 </view>
