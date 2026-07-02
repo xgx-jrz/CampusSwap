@@ -1,7 +1,1 @@
-<view class="container">
-  <view class="card">
-    <view class="page-title">{{detail.title}}</view>
-    <view class="price">￥{{detail.price}}</view>
-    <view class="desc">{{detail.desc}}</view>
-  </view>
-</view>
+<view class="container">商品详情页面</view>
