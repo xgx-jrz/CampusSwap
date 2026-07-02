@@ -47,3 +47,9 @@ CampusSwap/
 └── utils/                 # 工具函数
     └── common.js
 ```
+
+## 本地运行步骤
+1. 克隆项目
+```bash
+git clone https://github.com/xgx-jrz/CampusSwap.git
+```
