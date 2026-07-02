@@ -1,8 +1,11 @@
-<view class="goods-card">
-  <image class="goods-card__image" src="{{goods.image || '/assets/images/logo.png'}}" mode="aspectFill"></image>
-  <view class="goods-card__info">
-    <view class="goods-card__title">{{goods.title}}</view>
-    <view class="goods-card__price">￥{{goods.price}}</view>
-    <view class="goods-card__desc">{{goods.desc}}</view>
+<view class="goods-card" bindtap="goDetail">
+  <image class="cover" src="{{item.cover}}" mode="aspectFill"></image>
+  <view class="info">
+    <text class="title">{{item.title}}</text>
+    <view class="flex-row justify-between">
+      <text wx:if="{{item.price > 0}}" class="price">¥{{item.price}}</text>
+      <text wx:else class="swap-tag">可置换</text>
+    </view>
+    <text class="campus">{{item.school}}</text>
   </view>
 </view>
