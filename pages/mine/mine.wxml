@@ -1,9 +1,1 @@
-<view class="container">
-  <view class="card user-card">
-    <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
-    <view class="user-info">
-      <view class="nick-name">{{userInfo.nickName}}</view>
-      <view class="desc">欢迎来到校园易换</view>
-    </view>
-  </view>
-</view>
+<view class="container">我的页面</view>
