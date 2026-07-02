@@ -1,10 +1,13 @@
 Component({
   properties: {
-    goods: {
-      type: Object,
-      value: {}
-    }
+    item: Object
   },
-  data: {},
-  methods: {}
+  methods: {
+    goDetail() {
+      const id = this.data.item.id;
+      wx.navigateTo({
+        url: `/pages/detail/detail?id=${id}`
+      });
+    }
+  }
 });
