@@ -1,0 +1,21 @@
+.user-card {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  margin-right: 24rpx;
+}
+
+.nick-name {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.desc {
+  color: #888;
+  margin-top: 8rpx;
+}

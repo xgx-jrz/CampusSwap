@@ -1,0 +1,8 @@
+<view class="goods-card">
+  <image class="goods-card__image" src="{{goods.image || '/assets/images/logo.png'}}" mode="aspectFill"></image>
+  <view class="goods-card__info">
+    <view class="goods-card__title">{{goods.title}}</view>
+    <view class="goods-card__price">￥{{goods.price}}</view>
+    <view class="goods-card__desc">{{goods.desc}}</view>
+  </view>
+</view>

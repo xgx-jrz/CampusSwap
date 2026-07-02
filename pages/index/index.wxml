@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="card">
+    <view class="page-title">校园易换</view>
+    <view class="page-subtitle">发现校园里的闲置好物</view>
+  </view>
+
+  <view class="goods-list">
+    <block wx:for="{{goodsList}}" wx:key="id">
+      <goods-card goods="{{item}}"></goods-card>
+    </block>
+  </view>
+</view>

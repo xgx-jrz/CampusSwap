@@ -1,0 +1,34 @@
+.goods-card {
+  display: flex;
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+}
+
+.goods-card__image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 12rpx;
+  margin-right: 20rpx;
+}
+
+.goods-card__info {
+  flex: 1;
+}
+
+.goods-card__title {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.goods-card__price {
+  color: #f04d4d;
+  margin-top: 8rpx;
+}
+
+.goods-card__desc {
+  color: #888;
+  font-size: 24rpx;
+  margin-top: 8rpx;
+}
